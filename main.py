@@ -12,10 +12,8 @@ brand_normalization = {
     'AT&T': 'AT&T',
     'Google LLC': 'Google',
     'Google': 'Google',
-    # Добавьте другие вариации брендов по мере необходимости
 }
 
-# Функция для нормализации названий брендов
 def normalize_brand(brand_name):
     return brand_normalization.get(brand_name, brand_name)
 
